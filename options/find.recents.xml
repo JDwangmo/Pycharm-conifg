@@ -1,0 +1,42 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>\.</find>
+      <find>evasampledata4-TaskAA.txt</find>
+      <find>[\u4e00-\u9fff]</find>
+      <find>[^\u4e00-\u9fff]</find>
+      <find>[^\u4e00-\u9fbf]</find>
+      <find>[^\u4e00-\u9faf\n]+</find>
+      <find>,</find>
+      <find>第二</find>
+      <find>有仇必报</find>
+      <find>469</find>
+      <find>*</find>
+      <find>看到,运,存,曾经,的,我,也,和,大家,一样,很,失望,但是,回过,回过头来,过头</find>
+      <find>看到,运,存,曾经,的,我,也,和,大</find>
+      <find>data[data[column].notnull()]</find>
+      <find>NULL</find>
+      <find>taget</find>
+      <find>...</find>
+      <find>start</find>
+      <find>none</find>
+      <find>index_padding</find>
+      <find>embedding</find>
+      <find>1892</find>
+      <find>processing_na_value</find>
+      <find>婆婆</find>
+      <find>1823</find>
+      <find>1375</find>
+      <find>不支</find>
+      <find>提议</find>
+      <find>热情</find>
+      <find>nan</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>X</replace>
+      <replace />
+      <replace />
+      <replace>indexs_padding</replace>
+    </replaceStrings>
+  </component>
+</application>
