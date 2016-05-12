@@ -1,11 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>\.</find>
-      <find>evasampledata4-TaskAA.txt</find>
-      <find>[\u4e00-\u9fff]</find>
-      <find>[^\u4e00-\u9fff]</find>
-      <find>[^\u4e00-\u9fbf]</find>
       <find>[^\u4e00-\u9faf\n]+</find>
       <find>,</find>
       <find>第二</find>
@@ -31,12 +26,20 @@
       <find>提议</find>
       <find>热情</find>
       <find>nan</find>
+      <find>random</find>
+      <find>&lt;pattern&gt;BYE</find>
+      <find>&lt;that&gt;&lt;/that&gt;</find>
+      <find>suc</find>
+      <find>success</find>
     </findStrings>
     <replaceStrings>
       <replace>X</replace>
       <replace />
-      <replace />
       <replace>indexs_padding</replace>
+      <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/PycharmProjects/PyAIML/Ch2R_aiml</dir>
+    </dirStrings>
   </component>
 </application>

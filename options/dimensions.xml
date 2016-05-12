@@ -6,24 +6,28 @@
     <location key="GitCloneDialog.0.0.3200.1800@192dpi" x="1331" y="791" />
     <location key="CommitChangelistDialog2.0.0.3200.1800@192dpi" x="994" y="559" />
     <location key="Vcs.Push.Dialog.0.0.3200.1800@192dpi" x="1105" y="409" />
-    <location key="findTextDialog.0.0.3200.1800@192dpi" x="1320" y="407" />
+    <location key="findTextDialog.0.0.3200.1800@192dpi" x="2023" y="454" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.3200.1800@192dpi" x="1143" y="659" />
     <location key="#Inspections.0.0.3200.1800@192dpi" x="1179" y="542" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3200.1800@192dpi" x="677" y="609" />
     <location key="VCS.ChangelistChooser.0.0.3200.1800@192dpi" x="1418" y="698" />
     <location key="refactoring.ChangeSignatureDialog.0.0.3200.1800@192dpi" x="1273" y="522" />
-    <location key="ProcessPopupWindow.0.0.3200.1800@192dpi" x="2395" y="1577" />
+    <location key="ProcessPopupWindow.0.0.3200.1800@192dpi" x="2395" y="1507" />
     <location key="IgnoreUnversionedDialog.0.0.3200.1800@192dpi" x="1340" y="776" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.3200.1800@192dpi" x="1146" y="643" />
+    <location key="#Web_Browsers.0.0.3200.1800@192dpi" x="1219" y="616" />
+    <location key="replaceTextDialog.0.0.3200.1800@192dpi" x="1315" y="357" />
+    <location key="ReplaceDuplicatesPrompt.0.0.3200.1800@192dpi" x="678" y="822" />
+    <location key="#Updates.0.0.3200.1800@192dpi" x="1160" y="739" />
     <size key="FileChooserDialogImpl.0.0.3200.1800@192dpi" width="828" height="958" />
     <size key="SettingsEditor.0.0.3200.1800@192dpi" width="2372" height="1364" />
-    <size key="GitCloneDialog.0.0.3200.1800@192dpi" width="532" height="291" />
+    <size key="GitCloneDialog.0.0.3200.1800@192dpi" width="1060" height="315" />
     <size key="CommitChangelistDialog2.0.0.3200.1800@192dpi" width="1849" height="1013" />
     <size key="Vcs.Push.Dialog.0.0.3200.1800@192dpi" width="983" height="1055" />
-    <size key="GridCell.Tab.0.left.0.0.3200.1800@192dpi" width="3159" height="393" />
-    <size key="GridCell.Tab.0.center.0.0.3200.1800@192dpi" width="3159" height="393" />
-    <size key="GridCell.Tab.0.right.0.0.3200.1800@192dpi" width="3159" height="393" />
-    <size key="GridCell.Tab.0.bottom.0.0.3200.1800@192dpi" width="3159" height="393" />
+    <size key="GridCell.Tab.0.left.0.0.3200.1800@192dpi" width="3159" height="725" />
+    <size key="GridCell.Tab.0.center.0.0.3200.1800@192dpi" width="3159" height="725" />
+    <size key="GridCell.Tab.0.right.0.0.3200.1800@192dpi" width="3159" height="725" />
+    <size key="GridCell.Tab.0.bottom.0.0.3200.1800@192dpi" width="3159" height="725" />
     <size key="javadoc.popup.0.0.3200.1800@192dpi" width="2683" height="554" />
     <size key="GridCell.Tab.1.left.0.0.3200.1800@192dpi" width="3147" height="776" />
     <size key="GridCell.Tab.1.center.0.0.3200.1800@192dpi" width="3147" height="776" />
@@ -39,5 +43,9 @@
     <size key="ProcessPopupWindow.0.0.3200.1800@192dpi" width="333" height="176" />
     <size key="IgnoreUnversionedDialog.0.0.3200.1800@192dpi" width="511" height="320" />
     <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.3200.1800@192dpi" width="908" height="587" />
+    <size key="#Web_Browsers.0.0.3200.1800@192dpi" width="755" height="640" />
+    <size key="replaceTextDialog.0.0.3200.1800@192dpi" width="556" height="1158" />
+    <size key="ReplaceDuplicatesPrompt.0.0.3200.1800@192dpi" width="1829" height="228" />
+    <size key="#Updates.0.0.3200.1800@192dpi" width="865" height="418" />
   </component>
 </application>
