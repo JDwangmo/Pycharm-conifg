@@ -2,7 +2,7 @@
   <resource-bundle>com.ansorgit.plugins.bash.bash</resource-bundle>
   <name>BashSupport</name>
   <category>Custom Languages</category>
-  <version>1.5.5.145</version>
+  <version>1.5.6.145</version>
   <vendor url="http://www.ansorg-it.com/" email="mail@ansorg-it.com">Joachim Ansorg</vendor>
   <idea-version since-build="145.184.1" until-build="145.9999"/>
   <depends>com.intellij.modules.lang</depends>
@@ -13,6 +13,28 @@
     &lt;/html&gt;</description>
   <change-notes>
         &lt;html&gt;
+        &lt;b&gt;Changes in version 1.5.6 compared to 1.5.5:&lt;/b&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Bugs fixed:&lt;br/&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;#89: Function expands incorrectly when defined above another function&lt;/li&gt;
+                    &lt;li&gt;#125: Array element gives "Unexpected token"&lt;/li&gt;
+                    &lt;li&gt;#310: Workaround for deeply nested structures&lt;/li&gt;
+                    &lt;li&gt;#320: Array use in arithmetic expressions wasn't working as expected&lt;/li&gt;
+                    &lt;li&gt;#321: Handle leading tabs before heredoc end markers in heredocs started with the marker&lt;/li&gt;
+                    &lt;li&gt;#324: Error reporting component is broken&lt;/li&gt;
+                    &lt;li&gt;#327: Heredoc parser doesn't recognize \$( or \${ construction&lt;/li&gt;
+                    &lt;li&gt;#330: Variable declarations in eval code now accepts variables on the left side of an assignment&lt;/li&gt;
+                    &lt;li&gt;#331: NPE in HereDoc parsing&lt;/li&gt;
+                    &lt;li&gt;#332: NPE in enter processor&lt;/li&gt;
+                    &lt;li&gt;#333: ClassCastExceptions in ManpageDocSourc&lt;/li&gt;
+                    &lt;li&gt;#334: Potential fix for the lexing state errors&lt;/li&gt;
+                    &lt;li&gt;Removed Bash facet, it wasn't used any more. Also, facets are unavailable on the minor platform products.&lt;/li&gt;
+                    &lt;li&gt;Switched the exception error reporting to use https.&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+
         &lt;b&gt;Changes in version 1.5.5 compared to 1.5.4:&lt;/b&gt;
         &lt;ul&gt;
             &lt;li&gt;Bugs fixed:&lt;br/&gt;
@@ -79,12 +101,6 @@
     </change-notes>
   <application-components>
     <component>
-      <implementation-class>com.ansorgit.plugins.bash.lang.BashLoader</implementation-class>
-    </component>
-    <component>
-      <implementation-class>com.ansorgit.plugins.bash.settings.facet.BashFacetLoader</implementation-class>
-    </component>
-    <component>
       <implementation-class>com.ansorgit.plugins.bash.editor.codecompletion.BashPathCommandCompletion</implementation-class>
     </component>
   </application-components>
@@ -99,7 +115,7 @@
       <add-to-group group-id="NewGroup" relative-to-action="NewFile" anchor="after"/>
     </action>
     <group id="Bash.REPL.Group" class="com.intellij.openapi.actionSystem.DefaultActionGroup" text="Bash REPL" description="Bash" popup="false">
-      <action id="com.ansorgit.plugins.bash.actions.AddReplAction" class="com.ansorgit.plugins.bash.actions.AddReplAction" text="Add new Bash console" description="Open a new Bash console window"/>
+      <action id="Bash.AddReplAction" class="com.ansorgit.plugins.bash.actions.AddReplAction" text="Add new Bash console" description="Open a new Bash console window"/>
       <add-to-group group-id="ToolsMenu" anchor="last"/>
     </group>
   </actions>
@@ -136,12 +152,12 @@
     <internalFileTemplate name="Bash Script"/>
     <annotator language="Bash" implementationClass="com.ansorgit.plugins.bash.editor.annotator.BashAnnotator"/>
     <codeInsight.lineMarkerProvider language="Bash" implementationClass="com.ansorgit.plugins.bash.editor.BashLineMarkerProvider"/>
-    <frameworkSupport implementation="com.ansorgit.plugins.bash.settings.facet.BashFacetTypeFrameworkSupportProvider"/>
     <runConfigurationProducer implementation="com.ansorgit.plugins.bash.runner.BashRunConfigProducer"/>
     <configurationType implementation="com.ansorgit.plugins.bash.runner.BashConfigurationType"/>
     <programRunner implementation="com.ansorgit.plugins.bash.runner.BashRunner"/>
     <moveFileHandler implementation="com.ansorgit.plugins.bash.refactoring.BashFileMoveHandler" id="BashMove"/>
     <spellchecker.support implementationClass="com.ansorgit.plugins.bash.editor.BashSpellCheckingSupport" language="Bash"/>
+    <enterHandlerDelegate implementation="com.ansorgit.plugins.bash.editor.BashUnmatchedBraceEnterProcessor" order="FIRST" id="BashUnmatchedBrace"/>
     <projectConfigurable groupId="language" instance="com.ansorgit.plugins.bash.settings.BashProjectSettingsConfigurable" id="BashSupport" key="settings.project.groupTitle" bundle="com.ansorgit.plugins.bash.bash"/>
     <errorHandler implementation="nu.studer.idea.errorreporting.PluginErrorReportSubmitter"/>
     <stubElementTypeHolder class="com.ansorgit.plugins.bash.lang.parser.BashElementTypes"/>
