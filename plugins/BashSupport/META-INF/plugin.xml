@@ -2,7 +2,7 @@
   <resource-bundle>com.ansorgit.plugins.bash.bash</resource-bundle>
   <name>BashSupport</name>
   <category>Custom Languages</category>
-  <version>1.5.6.145</version>
+  <version>1.5.7.145</version>
   <vendor url="http://www.ansorg-it.com/" email="mail@ansorg-it.com">Joachim Ansorg</vendor>
   <idea-version since-build="145.184.1" until-build="145.9999"/>
   <depends>com.intellij.modules.lang</depends>
@@ -13,6 +13,18 @@
     &lt;/html&gt;</description>
   <change-notes>
         &lt;html&gt;
+        &lt;b&gt;Changes in version 1.5.7 compared to 1.5.6:&lt;/b&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Bugs fixed:&lt;br/&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;#339: Update failed for AnAction with ID=ExternalJavaDoc (ClassCastException)&lt;/li&gt;
+                    &lt;li&gt;#340: isExpectingEvaluatingHeredoc called on an empty marker stack&lt;/li&gt;
+                    &lt;li&gt;#341: Exception "The inString stack should not be empty"&lt;/li&gt;
+                    &lt;li&gt;#342: Exception "Index out of range: -1" at beginning of file&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+
         &lt;b&gt;Changes in version 1.5.6 compared to 1.5.5:&lt;/b&gt;
         &lt;ul&gt;
             &lt;li&gt;Bugs fixed:&lt;br/&gt;

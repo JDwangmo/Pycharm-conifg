@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>mobi.hsz.idea.gitignore</id>
   <name>.ignore</name>
-  <version>1.3.3</version>
+  <version>1.4</version>
   <vendor email="jakub@hsz.mobi" url="http://www.hsz.mobi">hsz</vendor>
   <description>
       &lt;h1&gt;.ignore&lt;/h1&gt;
@@ -18,7 +18,7 @@
         &lt;i&gt;.gitignore (GIT), .hgignore (Mercurial), .npmignore (NPM), .dockerignore (Docker), .chefignore (Chef),
            .cvsignore (CVS), .bzrignore (Bazaar), .boringignore (Darcs), .mtn-ignore (Monotone), ignore-glob (Fossil),
            .jshintignore (JSHint), .tfignore (Team Foundation), .p4ignore (Perforce), .flooignore (Floobits),
-           .eslintignore (ESLint), .cfignore (Cloud Foundry)&lt;/i&gt;,
+           .eslintignore (ESLint), .cfignore (Cloud Foundry)&lt;/i&gt;, .jpmignore (Jetpack)
         files in your project.
       &lt;br/&gt;
 
@@ -50,33 +50,31 @@
     </description>
   <change-notes>
 
-        &lt;a href="https://github.com/hsz/idea-gitignore/tree/v1.3.3"&gt;&lt;b&gt;v1.3.3&lt;/b&gt;&lt;/a&gt; (2016-04-04) &lt;br/&gt;&lt;br/&gt;
-        &lt;a href="https://github.com/hsz/idea-gitignore/compare/v1.2...v1.3.3"&gt;&lt;small&gt;Full Changelog&lt;/small&gt;&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;
+        &lt;a href="https://github.com/hsz/idea-gitignore/tree/v1.4"&gt;&lt;b&gt;v1.4&lt;/b&gt;&lt;/a&gt; (2016-05-23) &lt;br/&gt;&lt;br/&gt;
+        &lt;a href="https://github.com/hsz/idea-gitignore/compare/v1.3.3...1.4"&gt;&lt;small&gt;Full Changelog&lt;/small&gt;&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;
 
         &lt;i&gt;Implemented enhancements:&lt;/i&gt;
         
         &lt;ul&gt;
-            &lt;li&gt;Import / Export templates (&lt;a href="https://github.com/hsz/idea-gitignore/issues/194"&gt;194&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;Generate rules without duplicates (&lt;a href="https://github.com/hsz/idea-gitignore/issues/164"&gt;164&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;Global gitignore section resize (&lt;a href="https://github.com/hsz/idea-gitignore/issues/187"&gt;187&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;.eslintignore support (&lt;a href="https://github.com/hsz/idea-gitignore/issues/175"&gt;175&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;.cfignore support (&lt;a href="https://github.com/hsz/idea-gitignore/issues/161"&gt;161&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Add Unversioned Files to .gitignore (Git) (&lt;a href="https://github.com/hsz/idea-gitignore/issues/124"&gt;124&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Add to 'exclude' (Git) (&lt;a href="https://github.com/hsz/idea-gitignore/issues/133"&gt;133&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Exclude file preview (Git) (&lt;a href="https://github.com/hsz/idea-gitignore/issues/132"&gt;132&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Allow user to specify position of appended entries (&lt;a href="https://github.com/hsz/idea-gitignore/issues/216"&gt;216&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;JetPack (.jpmignore) support (&lt;a href="https://github.com/hsz/idea-gitignore/issues/215"&gt;215&lt;/a&gt;)&lt;/li&gt;
         &lt;/ul&gt;
 
         &lt;i&gt;Fixed bugs:&lt;/i&gt;
 
         &lt;ul&gt;
-            &lt;li&gt;CPU performance fixes (&lt;a href="https://github.com/hsz/idea-gitignore/issues/154"&gt;154&lt;/a&gt;, &lt;a href="https://github.com/hsz/idea-gitignore/issues/204"&gt;204&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;Ignored files are no longer being colored correctly (&lt;a href="https://github.com/hsz/idea-gitignore/issues/174"&gt;174&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;Fatal Error on changing project name (&lt;a href="https://github.com/hsz/idea-gitignore/issues/203"&gt;203&lt;/a&gt;, &lt;a href="https://github.com/hsz/idea-gitignore/issues/193"&gt;193&lt;/a&gt;, &lt;a href="https://github.com/hsz/idea-gitignore/issues/170"&gt;170&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;.gitignore\_global causes plugin to crash (&lt;a href="https://github.com/hsz/idea-gitignore/issues/198"&gt;198&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;ClassCastException when editing .gitignore on remote file system (&lt;a href="https://github.com/hsz/idea-gitignore/issues/196"&gt;196&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;ClassCastException on JSP (&lt;a href="https://github.com/hsz/idea-gitignore/issues/195"&gt;195&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;Global gitignore section scrolling (&lt;a href="https://github.com/hsz/idea-gitignore/issues/186"&gt;186&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;"Unclosed character class" warning is wrong (&lt;a href="https://github.com/hsz/idea-gitignore/issues/166"&gt;166&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;IgnoreSettings settings must produce stable state (&lt;a href="https://github.com/hsz/idea-gitignore/issues/162"&gt;162&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;Global ignore error (&lt;a href="https://github.com/hsz/idea-gitignore/issues/190"&gt;190&lt;/a&gt;)&lt;/li&gt;
-            &lt;li&gt;IgnoreParserUtil exception (&lt;a href="https://github.com/hsz/idea-gitignore/issues/211"&gt;211&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;NoSuchMethodError in IDEA 2016.2 EAP (&lt;a href="https://github.com/hsz/idea-gitignore/issues/225"&gt;225&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;ConcurrentModificationException (&lt;a href="https://github.com/hsz/idea-gitignore/issues/221"&gt;221&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;ClassCastException: ...FileImpl cannot be cast to IgnoreFile (&lt;a href="https://github.com/hsz/idea-gitignore/issues/220"&gt;220&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Problem files coloring (&lt;a href="https://github.com/hsz/idea-gitignore/issues/219"&gt;219&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Subfolders recognition (&lt;a href="https://github.com/hsz/idea-gitignore/issues/218"&gt;218&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Tricky ignore rules issue (&lt;a href="https://github.com/hsz/idea-gitignore/issues/214"&gt;214&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;"Entry never used" invalid (&lt;a href="https://github.com/hsz/idea-gitignore/issues/213"&gt;213&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;NoSuchMethodError exception (&lt;a href="https://github.com/hsz/idea-gitignore/issues/211"&gt;211&lt;/a&gt;)&lt;/li&gt;
+            &lt;li&gt;Double star pattern /\*\* doesn't gray out files in subdirectories (&lt;a href="https://github.com/hsz/idea-gitignore/issues/165"&gt;165&lt;/a&gt;)    
         &lt;/ul&gt;
 
         &lt;a href="https://github.com/hsz/idea-gitignore/blob/master/CHANGELOG.md"&gt;&lt;b&gt;Full Changelog History&lt;/b&gt;&lt;/a&gt;
@@ -92,8 +90,10 @@
     <vcsConfigurableProvider implementation="mobi.hsz.idea.gitignore.settings.IgnoreSettingsConfigurable"/>
     <applicationService serviceInterface="mobi.hsz.idea.gitignore.settings.IgnoreSettings" serviceImplementation="mobi.hsz.idea.gitignore.settings.IgnoreSettings"/>
     <colorSettingsPage implementation="mobi.hsz.idea.gitignore.highlighter.IgnoreColorSettingsPage"/>
+    <highlightRangeExtension implementation="mobi.hsz.idea.gitignore.codeInsight.IgnoreHighlightRangeExtension"/>
     <completion.contributor language="Ignore" implementationClass="mobi.hsz.idea.gitignore.codeInsight.SyntaxCompletionContributor"/>
     <editorNotificationProvider implementation="mobi.hsz.idea.gitignore.daemon.MissingGitignoreNotificationProvider"/>
+    <editorNotificationProvider implementation="mobi.hsz.idea.gitignore.daemon.AddUnversionedFilesNotificationProvider"/>
     <fileTypeFactory implementation="mobi.hsz.idea.gitignore.file.IgnoreFileTypeFactory"/>
     <lang.elementManipulator forClass="mobi.hsz.idea.gitignore.psi.IgnoreEntry" implementationClass="mobi.hsz.idea.gitignore.psi.IgnoreEntryManipulator"/>
     <localInspection bundle="messages.IgnoreBundle" enabledByDefault="true" groupKey="codeInspection.group" implementationClass="mobi.hsz.idea.gitignore.codeInspection.IgnoreCoverEntryInspection" key="codeInspection.coverEntry" level="WARNING"/>
@@ -114,6 +114,8 @@
     <lang.parserDefinition language="Floobits" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
     <lang.parserDefinition language="Fossil" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
     <lang.parserDefinition language="Git" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
+    <lang.parserDefinition language="Git exclude" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
+    <lang.parserDefinition language="Jetpack" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
     <lang.parserDefinition language="JSHint" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
     <lang.parserDefinition language="Mercurial" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
     <lang.parserDefinition language="Monotone" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreParserDefinition"/>
@@ -163,6 +165,14 @@
     <lang.braceMatcher language="Git" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreBraceMatcher"/>
     <lang.commenter language="Git" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreCommenter"/>
     <lang.syntaxHighlighterFactory key="Git" implementationClass="mobi.hsz.idea.gitignore.highlighter.IgnoreHighlighterFactory"/>
+    <codeInsight.lineMarkerProvider language="Git exclude" implementationClass="mobi.hsz.idea.gitignore.daemon.IgnoreDirectoryMarkerProvider"/>
+    <lang.braceMatcher language="Git exclude" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreBraceMatcher"/>
+    <lang.commenter language="Git exclude" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreCommenter"/>
+    <lang.syntaxHighlighterFactory key="Git exclude" implementationClass="mobi.hsz.idea.gitignore.highlighter.IgnoreHighlighterFactory"/>
+    <codeInsight.lineMarkerProvider language="Jetpack" implementationClass="mobi.hsz.idea.gitignore.daemon.IgnoreDirectoryMarkerProvider"/>
+    <lang.braceMatcher language="Jetpack" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreBraceMatcher"/>
+    <lang.commenter language="Jetpack" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreCommenter"/>
+    <lang.syntaxHighlighterFactory key="Jetpack" implementationClass="mobi.hsz.idea.gitignore.highlighter.IgnoreHighlighterFactory"/>
     <codeInsight.lineMarkerProvider language="JSHint" implementationClass="mobi.hsz.idea.gitignore.daemon.IgnoreDirectoryMarkerProvider"/>
     <lang.braceMatcher language="JSHint" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreBraceMatcher"/>
     <lang.commenter language="JSHint" implementationClass="mobi.hsz.idea.gitignore.lang.IgnoreCommenter"/>

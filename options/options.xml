@@ -9,13 +9,13 @@
     <property name="installation.uid" value="cec9c064-17c4-4126-acc5-4dacceec76c6" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
     <property name="fileTypeChangedCounter" value="15" />
-    <property name="lastTip" value="62" />
+    <property name="lastTip" value="77" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/PyAIML&#10;/home/jdwang/PycharmProjects/pyAiml-2.0&#10;/home/jdwang&#10;/home/jdwang/PycharmProjects/test&#10;/home/jdwang/PycharmProjects/digitRecognition&#10;/home/jdwang/PycharmProjects/tianchi" />
     <property name="OpenOrAttachDialog.OpenMode" value="attach" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
-    <property name="selected.color.option.type" value="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
-    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="selected.color.option.type" value="SOFT_WRAP_SIGN_COLOR" />
+    <property name="FileTemplates.SelectedTemplate" value="Python Script" />
     <property name="FileChooser.ShowPath" value="true" />
     <property name="SplitFileEditor.Proportion" value="0.6184949" />
     <property name="TEMPLATES_FILTER_HISTORY" value="py" />

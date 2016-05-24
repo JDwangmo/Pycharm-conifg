@@ -118,6 +118,7 @@ gitignore/Yii.gitignore
 gitignore/CUDA.gitignore
 gitignore/Swift.gitignore
 gitignore/Sass.gitignore
+gitignore/Julia.gitignore
 gitignore/Qooxdoo.gitignore
 gitignore/Node.gitignore
 gitignore/D.gitignore

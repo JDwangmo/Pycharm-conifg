@@ -1,28 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>挺</find>
-      <find>152</find>
-      <find>420</find>
-      <find>itertools</find>
-      <find>我|买|他</find>
-      <find>我|不|买|了</find>
-      <find>我|买|它</find>
-      <find>我|也|是</find>
-      <find>那|就</find>
-      <find>都|不|是</find>
-      <find>好|我|要|它</find>
-      <find>不错</find>
-      <find>嗯|好|的|就要</find>
-      <find>表态#犹豫</find>
-      <find>我|想|听听|你|的|意见</find>
-      <find>无|语</find>
-      <find>无语</find>
-      <find>要求</find>
-      <find>额</find>
-      <find>无|要求</find>
-      <find>呃</find>
-      <find>没有|能|将|就|用|就行</find>
       <find>好|谢谢</find>
       <find>谢谢</find>
       <find>我|想|听听</find>
@@ -31,6 +9,28 @@
       <find>好|的|就</find>
       <find>无|要|求</find>
       <find>view</find>
+      <find>程度</find>
+      <find>多</find>
+      <find>没</find>
+      <find>导购#结束语</find>
+      <find>疑|问|没|有</find>
+      <find>问题</find>
+      <find>嗯</find>
+      <find>挺</find>
+      <find>看看</find>
+      <find>看</find>
+      <find>听听</find>
+      <find>听</find>
+      <find>WER</find>
+      <find>没法</find>
+      <find>会</find>
+      <find>:1</find>
+      <find>:2</find>
+      <find>1</find>
+      <find>NUM</find>
+      <find>True</find>
+      <find>表态#肯定</find>
+      <find>all_lab</find>
     </findStrings>
     <replaceStrings>
       <replace>X</replace>
@@ -41,6 +41,7 @@
       <replace>np</replace>
       <replace>logging(</replace>
       <replace>'</replace>
+      <replace>闲聊#结束语</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/PycharmProjects/PyAIML/Ch2R_aiml</dir>
