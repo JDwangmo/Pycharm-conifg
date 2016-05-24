@@ -26,8 +26,8 @@
       <entry feature="OpenInBrowser.Chrome" count="1" />
       <entry feature="OpenInBrowser.Opera" count="1" />
       <entry feature="execute.BashConfigurationType.Run" count="31" />
-      <entry feature="execute.PythonConfigurationType.Debug" count="55" />
-      <entry feature="execute.PythonConfigurationType.Run" count="3050" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="56" />
+      <entry feature="execute.PythonConfigurationType.Run" count="3098" />
       <entry feature="execute.tests.Run" count="1" />
       <entry feature="ide.settings.Appearance" count="16" />
       <entry feature="ide.settings.Auto_Import" count="1" />
