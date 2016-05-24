@@ -27,13 +27,13 @@
       <entry feature="OpenInBrowser.Opera" count="1" />
       <entry feature="execute.BashConfigurationType.Run" count="31" />
       <entry feature="execute.PythonConfigurationType.Debug" count="51" />
-      <entry feature="execute.PythonConfigurationType.Run" count="3020" />
+      <entry feature="execute.PythonConfigurationType.Run" count="3025" />
       <entry feature="execute.tests.Run" count="1" />
       <entry feature="ide.settings.Appearance" count="16" />
       <entry feature="ide.settings.Auto_Import" count="1" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
       <entry feature="ide.settings.Console_Font" count="1" />
-      <entry feature="ide.settings.File_and_Code_Templates" count="15" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="16" />
       <entry feature="ide.settings.Font" count="4" />
       <entry feature="ide.settings.General" count="10" />
       <entry feature="ide.settings.GitHub" count="3" />

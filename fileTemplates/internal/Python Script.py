@@ -6,12 +6,14 @@ import pandas as pd
 import logging
 import timeit
 import yaml
-logging.basicConfig(filename='${YEAR}${MONTH}${DAY}.log',filemode = 'w',format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 config = yaml.load(file('./config.yaml'))
 config = config['']
-print 'start running!'
+logging.basicConfig(filename=config['log_file_path'],filemode = 'w',format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 start_time = timeit.default_timer()
+print config['describe']
+print 'start running!'
 logging.debug(config['describe'])
+logging.debug('start running!')
 
 
 
