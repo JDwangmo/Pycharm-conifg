@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>mobi.hsz.idea.gitignore</id>
   <name>.ignore</name>
-  <version>1.4</version>
+  <version>1.4.1</version>
   <vendor email="jakub@hsz.mobi" url="http://www.hsz.mobi">hsz</vendor>
   <description>
       &lt;h1&gt;.ignore&lt;/h1&gt;
@@ -50,8 +50,8 @@
     </description>
   <change-notes>
 
-        &lt;a href="https://github.com/hsz/idea-gitignore/tree/v1.4"&gt;&lt;b&gt;v1.4&lt;/b&gt;&lt;/a&gt; (2016-05-23) &lt;br/&gt;&lt;br/&gt;
-        &lt;a href="https://github.com/hsz/idea-gitignore/compare/v1.3.3...1.4"&gt;&lt;small&gt;Full Changelog&lt;/small&gt;&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;
+        &lt;a href="https://github.com/hsz/idea-gitignore/tree/v1.4.1"&gt;&lt;b&gt;v1.4.1&lt;/b&gt;&lt;/a&gt; (2016-05-24) &lt;br/&gt;&lt;br/&gt;
+        &lt;a href="https://github.com/hsz/idea-gitignore/compare/v1.3.3...1.4.1"&gt;&lt;small&gt;Full Changelog&lt;/small&gt;&lt;/a&gt; &lt;br/&gt;&lt;br/&gt;
 
         &lt;i&gt;Implemented enhancements:&lt;/i&gt;
         
