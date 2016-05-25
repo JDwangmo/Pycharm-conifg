@@ -8,7 +8,7 @@ import timeit
 import yaml
 config = yaml.load(file('./config.yaml'))
 config = config['']
-logging.basicConfig(filename=config['log_file_path'],filemode = 'w',format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
+logging.basicConfig(filename=''.join(config['log_file_path']),filemode = 'w',format='%(asctime)s : %(levelname)s : %(message)s', level=logging.DEBUG)
 start_time = timeit.default_timer()
 print('='*30)
 print config['describe']

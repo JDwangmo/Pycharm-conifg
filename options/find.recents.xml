@@ -1,8 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>好|谢谢</find>
-      <find>谢谢</find>
       <find>我|想|听听</find>
       <find>我|想|听|听</find>
       <find>谢|谢</find>
@@ -31,6 +29,8 @@
       <find>True</find>
       <find>表态#肯定</find>
       <find>all_lab</find>
+      <find>init</find>
+      <find>predict</find>
     </findStrings>
     <replaceStrings>
       <replace>X</replace>
