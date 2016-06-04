@@ -2199,6 +2199,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.rtpl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.lichfaker.plugin.id" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.ru">
       <plugins>
         <option name="myPlugins">

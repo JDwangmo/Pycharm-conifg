@@ -1,52 +1,75 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>我|想|听听</find>
-      <find>我|想|听|听</find>
-      <find>谢|谢</find>
-      <find>好|的|就</find>
-      <find>无|要|求</find>
-      <find>view</find>
-      <find>程度</find>
-      <find>多</find>
-      <find>没</find>
-      <find>导购#结束语</find>
-      <find>疑|问|没|有</find>
-      <find>问题</find>
-      <find>嗯</find>
-      <find>挺</find>
-      <find>看看</find>
-      <find>看</find>
-      <find>听听</find>
-      <find>听</find>
-      <find>WER</find>
-      <find>没法</find>
-      <find>会</find>
-      <find>:1</find>
-      <find>:2</find>
-      <find>1</find>
-      <find>NUM</find>
+      <find>Max</find>
+      <find>config['model']</find>
+      <find>list</find>
+      <find>;model'</find>
+      <find>vectorizer</find>
+      <find>tfidf_vectorizer</find>
+      <find>'model'</find>
+      <find>save</find>
+      <find>dump</find>
+      <find>model_file_path</find>
+      <find>train_bow_features</find>
+      <find>train_cnn_features</find>
+      <find>test_cnn_features</find>
+      <find>word</find>
+      <find>quit()</find>
+      <find>label_file_path</find>
+      <find>Maxent</find>
+      <find>nltk</find>
+      <find>_BaseKFold</find>
+      <find>随便</find>
+      <find>_encoder</find>
+      <find>_bow_encoder</find>
+      <find>_bow_bow_encoder</find>
+      <find>pick</find>
+      <find>bow_WORD2VEC_oov_lr</find>
       <find>True</find>
-      <find>表态#肯定</find>
-      <find>all_lab</find>
-      <find>init</find>
-      <find>predict</find>
+      <find>rando</find>
+      <find>bow_cnn(bow)_randomforest</find>
+      <find />
+      <find>-</find>
     </findStrings>
     <replaceStrings>
-      <replace>X</replace>
+      <replace>train_label_index</replace>
+      <replace>test_label_index</replace>
+      <replace>20160527</replace>
+      <replace>bow_cnn_bow_cnn</replace>
+      <replace>name_predict</replace>
+      <replace>model_predict</replace>
+      <replace>详情</replace>
+      <replace>开始</replace>
+      <replace>导购</replace>
+      <replace>导购#更换</replace>
+      <replace>捣乱|骂人</replace>
+      <replace>表态</replace>
+      <replace># print</replace>
+      <replace>20160529</replace>
+      <replace>webapi</replace>
+      <replace>test</replace>
+      <replace>导购|更换</replace>
+      <replace>data</replace>
+      <replace>randomforest</replace>
+      <replace>rf_classifier</replace>
+      <replace>classifier</replace>
+      <replace>bow_cnn(bow)_randomforest</replace>
+      <replace>bow_word2vec_oov_maxent</replace>
+      <replace>bow_encoder</replace>
+      <replace>train_bow_features_4dim</replace>
+      <replace>test_bow_features_4dim</replace>
+      <replace>_bow_encoder</replace>
+      <replace>bow_CNN_bow_WORD2VEC_oov_randomforest</replace>
+      <replace>-</replace>
       <replace />
-      <replace>indexs_padding</replace>
-      <replace />
-      <replace>y_pred</replace>
-      <replace>np</replace>
-      <replace>logging(</replace>
-      <replace>'</replace>
-      <replace>闲聊#结束语</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/PycharmProjects/PyAIML/Ch2R_aiml</dir>
       <dir>$USER_HOME$/PycharmProjects/corprocessor/coprocessor/Corpus/segmentedCorpus/bosonnlp/20160404</dir>
       <dir>$USER_HOME$/PycharmProjects/corprocessor/coprocessor/Corpus/segmentedCorpus/jiebanlp/train/20160515</dir>
+      <dir>$USER_HOME$/PycharmProjects/Ch2RCorprocess/aiml_module/aiml_file/Ch2R</dir>
+      <dir>$USER_HOME$/PycharmProjects/Ch2RCorprocess/aiml_module/aiml_file</dir>
     </dirStrings>
   </component>
 </application>

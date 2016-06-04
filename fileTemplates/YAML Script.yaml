@@ -1,0 +1,13 @@
+project_path: &project_path 
+date: &date '${YEAR}${MONTH}${DAY}'
+
+#-------------------------------------$name$----------------------------------------------
+$name$:
+  path: $path$
+  
+  # 描述
+  describe: 
+
+  name: &name 
+
+  log_file_path: 

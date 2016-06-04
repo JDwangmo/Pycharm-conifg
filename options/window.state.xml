@@ -1,10 +1,28 @@
 <application>
   <component name="WindowStateApplicationService">
+    <state x="100" y="150" width="3000" height="1550" key="DiffContextDialog" />
+    <state x="100" y="150" width="3000" height="1550" key="DiffContextDialog/0.0.3200.1800" />
+    <state x="100" y="150" width="3000" height="1550" key="DiffContextDialog/0.0.3200.1800@0.0.3200.1800" />
     <state x="100" y="150" width="2992" height="1550" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" />
     <state x="100" y="150" width="2992" height="1550" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.3200.1800" />
     <state x="100" y="150" width="2992" height="1550" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.3200.1800@0.0.3200.1800" />
-    <state x="100" y="150" width="2992" height="1550" key="com.intellij.history.integration.ui.views.FileHistoryDialog" />
-    <state x="100" y="150" width="2992" height="1550" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.3200.1800" />
-    <state x="100" y="150" width="2992" height="1550" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.3200.1800@0.0.3200.1800" />
+    <state x="100" y="150" width="2968" height="1642" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" />
+    <state x="100" y="150" width="2968" height="1642" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.3200.1800" />
+    <state x="100" y="150" width="2968" height="1642" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.3200.1800@0.0.3200.1800" />
+    <state x="100" y="150" width="2994" height="1550" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" />
+    <state x="100" y="150" width="2994" height="1550" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.3200.1800" />
+    <state x="100" y="150" width="2994" height="1550" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.3200.1800@0.0.3200.1800" />
+    <state x="653" y="200" width="2425" height="1167" key="dock-window-1" />
+    <state x="653" y="200" width="2425" height="1167" key="dock-window-1/0.0.3200.1800" />
+    <state x="653" y="200" width="2425" height="1167" key="dock-window-1/0.0.3200.1800@0.0.3200.1800" />
+    <state x="569" y="509" width="2527" height="1060" key="dock-window-2" />
+    <state x="569" y="509" width="2527" height="1060" key="dock-window-2/0.0.3200.1800" />
+    <state x="569" y="509" width="2527" height="1060" key="dock-window-2/0.0.3200.1800@0.0.3200.1800" />
+    <state x="100" y="150" width="3000" height="1550" key="dock-window-3" />
+    <state x="100" y="150" width="3000" height="1550" key="dock-window-3/0.0.3200.1800" />
+    <state x="100" y="150" width="3000" height="1550" key="dock-window-3/0.0.3200.1800@0.0.3200.1800" />
+    <state x="100" y="150" width="2988" height="1550" key="dock-window-4" />
+    <state x="100" y="150" width="2988" height="1550" key="dock-window-4/0.0.3200.1800" />
+    <state x="100" y="150" width="2988" height="1550" key="dock-window-4/0.0.3200.1800@0.0.3200.1800" />
   </component>
 </application>

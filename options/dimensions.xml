@@ -1,10 +1,10 @@
 <application>
   <component name="DimensionService">
-    <location key="com.intellij.ide.util.TipDialog.0.0.3200.1800@192dpi" x="1174" y="342" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.3200.1800@192dpi" x="1889" y="340" />
     <location key="FileChooserDialogImpl.0.0.3200.1800@192dpi" x="1183" y="457" />
-    <location key="SettingsEditor.0.0.3200.1800@192dpi" x="506" y="268" />
+    <location key="SettingsEditor.0.0.3200.1800@192dpi" x="258" y="225" />
     <location key="GitCloneDialog.0.0.3200.1800@192dpi" x="1331" y="791" />
-    <location key="CommitChangelistDialog2.0.0.3200.1800@192dpi" x="498" y="588" />
+    <location key="CommitChangelistDialog2.0.0.3200.1800@192dpi" x="498" y="249" />
     <location key="Vcs.Push.Dialog.0.0.3200.1800@192dpi" x="866" y="219" />
     <location key="findTextDialog.0.0.3200.1800@192dpi" x="1878" y="328" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.3200.1800@192dpi" x="1143" y="659" />
@@ -12,7 +12,7 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3200.1800@192dpi" x="677" y="609" />
     <location key="VCS.ChangelistChooser.0.0.3200.1800@192dpi" x="1418" y="698" />
     <location key="refactoring.ChangeSignatureDialog.0.0.3200.1800@192dpi" x="1273" y="522" />
-    <location key="ProcessPopupWindow.0.0.3200.1800@192dpi" x="2395" y="1367" />
+    <location key="ProcessPopupWindow.0.0.3200.1800@192dpi" x="2395" y="1227" />
     <location key="IgnoreUnversionedDialog.0.0.3200.1800@192dpi" x="1340" y="776" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.3200.1800@192dpi" x="1146" y="643" />
     <location key="#Web_Browsers.0.0.3200.1800@192dpi" x="1219" y="616" />
@@ -21,20 +21,27 @@
     <location key="#Updates.0.0.3200.1800@192dpi" x="1160" y="739" />
     <location key="SettingsEditor.0.0.1920.1080@192dpi" x="0" y="50" />
     <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.3200.1800@192dpi" x="762" y="433" />
+    <location key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog.0.0.3200.1800@192dpi" x="1273" y="761" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.3200.1800@192dpi" x="1143" y="727" />
+    <location key="StructurePopup.0.0.3200.1800@192dpi" x="1173" y="693" />
+    <location key="#xdebugger.evaluate.0.0.3200.1800@192dpi" x="1095" y="633" />
+    <location key="bookmarks.0.0.3200.1800@192dpi" x="886" y="564" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.3200.1800@192dpi" x="1280" y="119" />
+    <location key="MultipleFileMergeDialog.0.0.3200.1800@192dpi" x="1219" y="622" />
     <size key="FileChooserDialogImpl.0.0.3200.1800@192dpi" width="828" height="958" />
-    <size key="SettingsEditor.0.0.3200.1800@192dpi" width="2372" height="1364" />
+    <size key="SettingsEditor.0.0.3200.1800@192dpi" width="2942" height="1338" />
     <size key="GitCloneDialog.0.0.3200.1800@192dpi" width="1060" height="315" />
-    <size key="CommitChangelistDialog2.0.0.3200.1800@192dpi" width="1849" height="1013" />
+    <size key="CommitChangelistDialog2.0.0.3200.1800@192dpi" width="1849" height="1034" />
     <size key="Vcs.Push.Dialog.0.0.3200.1800@192dpi" width="1599" height="1055" />
-    <size key="GridCell.Tab.0.left.0.0.3200.1800@192dpi" width="3159" height="536" />
-    <size key="GridCell.Tab.0.center.0.0.3200.1800@192dpi" width="3159" height="536" />
-    <size key="GridCell.Tab.0.right.0.0.3200.1800@192dpi" width="3159" height="536" />
-    <size key="GridCell.Tab.0.bottom.0.0.3200.1800@192dpi" width="3159" height="536" />
+    <size key="GridCell.Tab.0.left.0.0.3200.1800@192dpi" width="3155" height="472" />
+    <size key="GridCell.Tab.0.center.0.0.3200.1800@192dpi" width="3155" height="472" />
+    <size key="GridCell.Tab.0.right.0.0.3200.1800@192dpi" width="3155" height="472" />
+    <size key="GridCell.Tab.0.bottom.0.0.3200.1800@192dpi" width="3155" height="472" />
     <size key="javadoc.popup.0.0.3200.1800@192dpi" width="2683" height="554" />
-    <size key="GridCell.Tab.1.left.0.0.3200.1800@192dpi" width="3159" height="732" />
-    <size key="GridCell.Tab.1.center.0.0.3200.1800@192dpi" width="3159" height="732" />
-    <size key="GridCell.Tab.1.right.0.0.3200.1800@192dpi" width="3159" height="732" />
-    <size key="GridCell.Tab.1.bottom.0.0.3200.1800@192dpi" width="3159" height="732" />
+    <size key="GridCell.Tab.1.left.0.0.3200.1800@192dpi" width="3137" height="636" />
+    <size key="GridCell.Tab.1.center.0.0.3200.1800@192dpi" width="3137" height="636" />
+    <size key="GridCell.Tab.1.right.0.0.3200.1800@192dpi" width="3137" height="636" />
+    <size key="GridCell.Tab.1.bottom.0.0.3200.1800@192dpi" width="3137" height="636" />
     <size key="findTextDialog.0.0.3200.1800@192dpi" width="1034" height="1059" />
     <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.3200.1800@192dpi" width="1067" height="554" />
     <size key="#Inspections.0.0.3200.1800@192dpi" width="836" height="789" />
@@ -61,5 +68,13 @@
     <size key="GridCell.Tab.1.right.0.0.1920.1080@192dpi" width="1916" height="392" />
     <size key="GridCell.Tab.1.bottom.0.0.1920.1080@192dpi" width="1916" height="392" />
     <size key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.3200.1800@192dpi" width="1669" height="1006" />
+    <size key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog.0.0.3200.1800@192dpi" width="679" height="350" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.3200.1800@192dpi" width="907" height="418" />
+    <size key="StructurePopup.0.0.3200.1800@192dpi" width="846" height="407" />
+    <size key="DebuggerActiveHint.0.0.3200.1800@192dpi" width="1955" height="779" />
+    <size key="#xdebugger.evaluate.0.0.3200.1800@192dpi" width="992" height="607" />
+    <size key="bookmarks.0.0.3200.1800@192dpi" width="1422" height="666" />
+    <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.3200.1800@192dpi" width="628" height="1635" />
+    <size key="MultipleFileMergeDialog.0.0.3200.1800@192dpi" width="761" height="629" />
   </component>
 </application>
