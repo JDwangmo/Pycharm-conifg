@@ -1,48 +1,38 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>Max</find>
-      <find>config['model']</find>
-      <find>list</find>
-      <find>;model'</find>
-      <find>vectorizer</find>
-      <find>tfidf_vectorizer</find>
-      <find>'model'</find>
-      <find>save</find>
-      <find>dump</find>
-      <find>model_file_path</find>
-      <find>train_bow_features</find>
-      <find>train_cnn_features</find>
-      <find>test_cnn_features</find>
-      <find>word</find>
-      <find>quit()</find>
-      <find>label_file_path</find>
-      <find>Maxent</find>
-      <find>nltk</find>
-      <find>_BaseKFold</find>
-      <find>随便</find>
-      <find>_encoder</find>
-      <find>_bow_encoder</find>
-      <find>_bow_bow_encoder</find>
-      <find>pick</find>
-      <find>bow_WORD2VEC_oov_lr</find>
-      <find>True</find>
-      <find>rando</find>
-      <find>bow_cnn(bow)_randomforest</find>
-      <find />
-      <find>-</find>
+      <find>【AIML】</find>
+      <find>【AIML】(?=【进入状态机)</find>
+      <find>【AIML】(?:【进入状态机)</find>
+      <find>【AIML】(?!【进入状态机)</find>
+      <find>001808375fd047e89088b72e20478665	2016-06-02 16:26:03.023000000</find>
+      <find>voice_??</find>
+      <find>【进入状态机</find>
+      <find>group['Name'].unique().tolist()</find>
+      <find>hbtusvrojcnapxnlncfw2cmq</find>
+      <find>peijie huang</find>
+      <find>，</find>
+      <find>其他</find>
+      <find>seg</find>
+      <find>嗯</find>
+      <find>没有</find>
+      <find>不了</find>
+      <find>挺好的</find>
+      <find>第1100句</find>
+      <find>我要买手机</find>
+      <find>【.*</find>
+      <find>1100</find>
+      <find>测试者</find>
+      <find>2015-06-15</find>
+      <find>data</find>
+      <find>总体情况</find>
+      <find>9</find>
+      <find>pd</find>
+      <find>你</find>
+      <find>你好</find>
+      <find>sort</find>
     </findStrings>
     <replaceStrings>
-      <replace>train_label_index</replace>
-      <replace>test_label_index</replace>
-      <replace>20160527</replace>
-      <replace>bow_cnn_bow_cnn</replace>
-      <replace>name_predict</replace>
-      <replace>model_predict</replace>
-      <replace>详情</replace>
-      <replace>开始</replace>
-      <replace>导购</replace>
-      <replace>导购#更换</replace>
       <replace>捣乱|骂人</replace>
       <replace>表态</replace>
       <replace># print</replace>
@@ -61,8 +51,18 @@
       <replace>test_bow_features_4dim</replace>
       <replace>_bow_encoder</replace>
       <replace>bow_CNN_bow_WORD2VEC_oov_randomforest</replace>
-      <replace>-</replace>
       <replace />
+      <replace>sentence_to_full_seg</replace>
+      <replace>vectorizer</replace>
+      <replace>verify_data</replace>
+      <replace>name_test</replace>
+      <replace>w2v_cnn</replace>
+      <replace>bow_WORD2VEC_oov_cnn</replace>
+      <replace>vector1000000.gem</replace>
+      <replace>onehot_WORD2VEC_oov_cnn</replace>
+      <replace>-</replace>
+      <replace>word_embedding_model/nonstatic_w2v_padding_cnn</replace>
+      <replace>nonstatic_w2v_padding_cnn</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/PycharmProjects/PyAIML/Ch2R_aiml</dir>

@@ -2,9 +2,9 @@
   <component name="DimensionService">
     <location key="com.intellij.ide.util.TipDialog.0.0.3200.1800@192dpi" x="1889" y="340" />
     <location key="FileChooserDialogImpl.0.0.3200.1800@192dpi" x="1183" y="457" />
-    <location key="SettingsEditor.0.0.3200.1800@192dpi" x="258" y="225" />
+    <location key="SettingsEditor.0.0.3200.1800@192dpi" x="126" y="313" />
     <location key="GitCloneDialog.0.0.3200.1800@192dpi" x="1331" y="791" />
-    <location key="CommitChangelistDialog2.0.0.3200.1800@192dpi" x="498" y="249" />
+    <location key="CommitChangelistDialog2.0.0.3200.1800@192dpi" x="1067" y="551" />
     <location key="Vcs.Push.Dialog.0.0.3200.1800@192dpi" x="866" y="219" />
     <location key="findTextDialog.0.0.3200.1800@192dpi" x="1878" y="328" />
     <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.3200.1800@192dpi" x="1143" y="659" />
@@ -28,20 +28,24 @@
     <location key="bookmarks.0.0.3200.1800@192dpi" x="886" y="564" />
     <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.3200.1800@192dpi" x="1280" y="119" />
     <location key="MultipleFileMergeDialog.0.0.3200.1800@192dpi" x="1219" y="622" />
+    <location key="com.intellij.openapi.vcs.changes.UnversionedViewDialog.0.0.3200.1800@192dpi" x="1133" y="488" />
+    <location key="git4idea.merge.GitPullDialog.0.0.3200.1800@192dpi" x="1095" y="548" />
+    <location key="#test.0.0.3200.1800@192dpi" x="1141" y="317" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.3200.1800" x="1298" y="728" />
     <size key="FileChooserDialogImpl.0.0.3200.1800@192dpi" width="828" height="958" />
     <size key="SettingsEditor.0.0.3200.1800@192dpi" width="2942" height="1338" />
     <size key="GitCloneDialog.0.0.3200.1800@192dpi" width="1060" height="315" />
     <size key="CommitChangelistDialog2.0.0.3200.1800@192dpi" width="1849" height="1034" />
     <size key="Vcs.Push.Dialog.0.0.3200.1800@192dpi" width="1599" height="1055" />
-    <size key="GridCell.Tab.0.left.0.0.3200.1800@192dpi" width="3155" height="472" />
-    <size key="GridCell.Tab.0.center.0.0.3200.1800@192dpi" width="3155" height="472" />
-    <size key="GridCell.Tab.0.right.0.0.3200.1800@192dpi" width="3155" height="472" />
-    <size key="GridCell.Tab.0.bottom.0.0.3200.1800@192dpi" width="3155" height="472" />
-    <size key="javadoc.popup.0.0.3200.1800@192dpi" width="2683" height="554" />
-    <size key="GridCell.Tab.1.left.0.0.3200.1800@192dpi" width="3137" height="636" />
-    <size key="GridCell.Tab.1.center.0.0.3200.1800@192dpi" width="3137" height="636" />
-    <size key="GridCell.Tab.1.right.0.0.3200.1800@192dpi" width="3137" height="636" />
-    <size key="GridCell.Tab.1.bottom.0.0.3200.1800@192dpi" width="3137" height="636" />
+    <size key="GridCell.Tab.0.left.0.0.3200.1800@192dpi" width="3200" height="504" />
+    <size key="GridCell.Tab.0.center.0.0.3200.1800@192dpi" width="3200" height="504" />
+    <size key="GridCell.Tab.0.right.0.0.3200.1800@192dpi" width="3200" height="504" />
+    <size key="GridCell.Tab.0.bottom.0.0.3200.1800@192dpi" width="3200" height="504" />
+    <size key="javadoc.popup.0.0.3200.1800@192dpi" width="2683" height="653" />
+    <size key="GridCell.Tab.1.left.0.0.3200.1800@192dpi" width="3200" height="511" />
+    <size key="GridCell.Tab.1.center.0.0.3200.1800@192dpi" width="3200" height="511" />
+    <size key="GridCell.Tab.1.right.0.0.3200.1800@192dpi" width="3200" height="511" />
+    <size key="GridCell.Tab.1.bottom.0.0.3200.1800@192dpi" width="3200" height="511" />
     <size key="findTextDialog.0.0.3200.1800@192dpi" width="1034" height="1059" />
     <size key="#com.intellij.fileTypes.FileTypeChooser.0.0.3200.1800@192dpi" width="1067" height="554" />
     <size key="#Inspections.0.0.3200.1800@192dpi" width="836" height="789" />
@@ -76,5 +80,8 @@
     <size key="bookmarks.0.0.3200.1800@192dpi" width="1422" height="666" />
     <size key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.3200.1800@192dpi" width="628" height="1635" />
     <size key="MultipleFileMergeDialog.0.0.3200.1800@192dpi" width="761" height="629" />
+    <size key="com.intellij.openapi.vcs.changes.UnversionedViewDialog.0.0.3200.1800@192dpi" width="916" height="896" />
+    <size key="git4idea.merge.GitPullDialog.0.0.3200.1800@192dpi" width="997" height="777" />
+    <size key="#test.0.0.3200.1800@192dpi" width="893" height="1238" />
   </component>
 </application>

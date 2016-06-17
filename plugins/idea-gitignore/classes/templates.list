@@ -49,6 +49,7 @@ gitignore/Global/Mercurial.gitignore
 gitignore/Global/Eclipse.gitignore
 gitignore/Global/SynopsysVCS.gitignore
 gitignore/Global/JDeveloper.gitignore
+gitignore/Global/Bazaar.gitignore
 gitignore/Global/XilinxISE.gitignore
 gitignore/Global/Otto.gitignore
 gitignore/Global/Xcode.gitignore

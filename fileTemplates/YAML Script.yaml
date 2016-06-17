@@ -1,13 +1,17 @@
-project_path: &project_path 
+project_path: &project_path $project_path
 date: &date '${YEAR}${MONTH}${DAY}'
 
-#-------------------------------------$name$----------------------------------------------
-$name$:
-  path: $path$
+#------------------------------------- $script_name ----------------------------------------------
+$script_name:
+    path: $script_path
   
-  # 描述
-  describe: 
+    # 描述
+    describe: 
 
-  name: &name 
+    name: &name $script_name
+  
+    verbose: 1
 
-  log_file_path: 
+    log_file_path: [*project_path,'/log/',*date,'_',*name,'.log']
+  
+    result_file_path: [*project_path,'/result/',*date,'_',*name,'.csv']

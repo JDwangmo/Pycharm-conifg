@@ -8,14 +8,14 @@
     <property name="PyCharm.InitialConfiguration.V6" value="true" />
     <property name="installation.uid" value="cec9c064-17c4-4126-acc5-4dacceec76c6" />
     <property name="toolwindow.stripes.buttons.info.shown" value="true" />
-    <property name="fileTypeChangedCounter" value="16" />
-    <property name="lastTip" value="37" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/test&#10;/home/jdwang/PycharmProjects/Ch2RCorprocess&#10;/home/jdwang/PycharmProjects/PyAIML&#10;/home/jdwang/PycharmProjects/pyAiml-2.0&#10;/home/jdwang&#10;/home/jdwang/PycharmProjects/digitRecognition&#10;/home/jdwang/PycharmProjects/tianchi" />
+    <property name="fileTypeChangedCounter" value="19" />
+    <property name="lastTip" value="87" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/PycharmProjects/CNN_sentence&#10;/home/jdwang/PycharmProjects/tianchi&#10;/home/jdwang/PycharmProjects/weiboStanceDetection&#10;/home/jdwang/PycharmProjects/test&#10;/home/jdwang/PycharmProjects/Ch2RCorprocess&#10;/home/jdwang/PycharmProjects/PyAIML&#10;/home/jdwang/PycharmProjects/pyAiml-2.0&#10;/home/jdwang&#10;/home/jdwang/PycharmProjects/digitRecognition" />
     <property name="OpenOrAttachDialog.OpenMode" value="attach" />
     <property name="Copy.OpenInEditor" value="false" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="selected.color.option.type" value="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
-    <property name="FileTemplates.SelectedTemplate" value="Python Script" />
+    <property name="FileTemplates.SelectedTemplate" value="YAML Script" />
     <property name="FileChooser.ShowPath" value="true" />
     <property name="SplitFileEditor.Proportion" value="0.6184949" />
     <property name="TEMPLATES_FILTER_HISTORY" value="py" />
@@ -27,7 +27,7 @@
     <property name="sm_test_statistics_table_columnsWidth2" value="75" />
     <property name="sm_test_statistics_table_columnsOrder2" value="2" />
     <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="155" />
-    <property name="PACKAGE_FILTER" value="jupy&#10;jy" />
+    <property name="PACKAGE_FILTER" value="imagef&#10;tensort&#10;jupy&#10;jy" />
     <property name="PythonUnitTestRunnerSupport.hideIgnoredTests" value="true" />
     <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.61589897" />
     <property name="com.intellij.history.integration.ui.views.SelectionHistoryDialog.0" value="300" />
