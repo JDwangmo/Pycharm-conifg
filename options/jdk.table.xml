@@ -12,12 +12,10 @@
             <root type="simple" url="file:///usr/lib/python2.7/plat-x86_64-linux-gnu" />
             <root type="simple" url="file:///usr/lib/python2.7/lib-tk" />
             <root type="simple" url="file:///usr/lib/python2.7/lib-dynload" />
-            <root type="simple" url="file://$USER_HOME$/.local/lib/python2.7/site-packages" />
             <root type="simple" url="file:///usr/local/lib/python2.7/dist-packages" />
             <root type="simple" url="file:///usr/lib/python2.7/dist-packages" />
             <root type="simple" url="file:///usr/lib/python2.7/dist-packages/PILcompat" />
             <root type="simple" url="file:///usr/lib/python2.7/dist-packages/gtk-2.0" />
-            <root type="simple" url="file:///usr/lib/pymodules/python2.7" />
             <root type="simple" url="file:///usr/lib/python2.7/dist-packages/ubuntu-sso-client" />
             <root type="simple" url="file://$USER_HOME$/.PyCharm2016.1/system/python_stubs/-1247972723" />
             <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />

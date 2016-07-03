@@ -19,7 +19,7 @@
       <option name="Python_Class" value="true" />
     </context>
   </template>
-  <template name="yamlconfig" value="&#10;#-------------------------------------$name$----------------------------------------------&#10;$name$:&#10;    path: $path$&#10;  &#10;    # 描述&#10;    describe: &#10;&#10;    name: &amp;name_$name$  &#10;  &#10;    verbose: 1&#10;&#10;    log_file_path: " description="yaml config" toReformat="false" toShortenFQNames="true">
+  <template name="yamlconfig" value="&#10;#-------------------------------------$name$----------------------------------------------&#10;$name$:&#10;    path: $path$&#10;  &#10;    # 描述&#10;    describe: &#10;&#10;    name: &amp;name_$name$ $name$  &#10;  &#10;    verbose: 1&#10;&#10;    log_file_path: [*project_path,'/log/',*date,'_',*name_$name$,'.log']&#10;" description="yaml config" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -41,15 +41,36 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="print_and_logging" value="logging.debug($content$)&#10;print $content$" description="print and logging" toReformat="false" toShortenFQNames="true">
+  <template name="print_and_logging" value="logging.debug($content$)&#10;print($content$)" description="print and logging" toReformat="false" toShortenFQNames="true">
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
       <option name="Python_Class" value="true" />
     </context>
   </template>
-  <template name="verbose" value="logging.debug($content$)&#10;if verbose &gt; $verbose$:&#10;    print $content$" toReformat="false" toShortenFQNames="true">
+  <template name="verbose_print" value="# -------------- print start : just print info -------------&#10;if verbose &gt; $verbose$ :&#10;    logging.debug($content$)&#10;    print($content$)&#10;# -------------- print end : just print info -------------" toReformat="false" toShortenFQNames="true">
+    <variable name="verbose" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="region_func" value="# -------------- region start : $region_descirbe$ -------------&#10;logging.debug('-' * 20)&#10;print('-' * 20)&#10;logging.debug('$region_descirbe$')&#10;print('$region_descirbe$')&#10;&#10;&#10;&#10;logging.debug('-' * 20)&#10;print('-' * 20)&#10;# -------------- region end : $region_descirbe$ ---------------&#10;" description="region describe in function" toReformat="false" toShortenFQNames="true">
+    <variable name="region_descirbe" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="import" value="import numpy as np&#10;import pandas as pd&#10;import logging&#10;import timeit" description="import common package" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+      <option name="Python_Class" value="true" />
+    </context>
+  </template>
+  <template name="verbose_region_fun" value="# -------------- region start : $region_descirbe$ -------------&#10;if verbose &gt; $verbose$ :&#10;    logging.debug('-' * 20)&#10;    print('-' * 20)&#10;    logging.debug('$region_descirbe$')&#10;    print '$region_descirbe$'&#10;# -------------- code start : 开始 -------------&#10;&#10;&#10;&#10;# -------------- code start : 结束 -------------&#10;if verbose &gt; $verbose$ :&#10;    logging.debug('-' * 20)&#10;    print('-' * 20)&#10;# -------------- region end : $region_descirbe$ ---------------&#10;" description="verbose region print in function" toReformat="false" toShortenFQNames="true">
+    <variable name="region_descirbe" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="verbose" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />

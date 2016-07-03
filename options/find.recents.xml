@@ -1,58 +1,38 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>【AIML】</find>
-      <find>【AIML】(?=【进入状态机)</find>
-      <find>【AIML】(?:【进入状态机)</find>
-      <find>【AIML】(?!【进入状态机)</find>
-      <find>001808375fd047e89088b72e20478665	2016-06-02 16:26:03.023000000</find>
-      <find>voice_??</find>
-      <find>【进入状态机</find>
-      <find>group['Name'].unique().tolist()</find>
-      <find>hbtusvrojcnapxnlncfw2cmq</find>
-      <find>peijie huang</find>
-      <find>，</find>
-      <find>其他</find>
-      <find>seg</find>
-      <find>嗯</find>
-      <find>没有</find>
-      <find>不了</find>
-      <find>挺好的</find>
-      <find>第1100句</find>
-      <find>我要买手机</find>
-      <find>【.*</find>
-      <find>1100</find>
-      <find>测试者</find>
-      <find>2015-06-15</find>
-      <find>data</find>
-      <find>总体情况</find>
-      <find>9</find>
-      <find>pd</find>
-      <find>你</find>
-      <find>你好</find>
-      <find>sort</find>
+      <find>深圳禁摩限电</find>
+      <find>讨论为什么剥夺普通人使</find>
+      <find>禁摩限电	ect雷电电摩治疗仪全球招商！深圳康</find>
+      <find>2414</find>
+      <find>第.*$</find>
+      <find>^$\n</find>
+      <find>实话</find>
+      <find>颜</find>
+      <find>&gt;&gt;&gt;</find>
+      <find>员工</find>
+      <find>申请</find>
+      <find>成都</find>
+      <find>need_segmented</find>
+      <find>春节放鞭炮</find>
+      <find>asse</find>
+      <find>embedding_init_weight</find>
+      <find>ass</find>
+      <find>歧视,女性</find>
+      <find>底层</find>
+      <find>UNK</find>
+      <find>NUM</find>
+      <find>防部</find>
+      <find>number</find>
+      <find>train_X</find>
+      <find>1823</find>
+      <find>12061</find>
+      <find>6338</find>
+      <find>print_model_descibe</find>
+      <find>onehot</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
-      <replace>捣乱|骂人</replace>
-      <replace>表态</replace>
-      <replace># print</replace>
-      <replace>20160529</replace>
-      <replace>webapi</replace>
-      <replace>test</replace>
-      <replace>导购|更换</replace>
-      <replace>data</replace>
-      <replace>randomforest</replace>
-      <replace>rf_classifier</replace>
-      <replace>classifier</replace>
-      <replace>bow_cnn(bow)_randomforest</replace>
-      <replace>bow_word2vec_oov_maxent</replace>
-      <replace>bow_encoder</replace>
-      <replace>train_bow_features_4dim</replace>
-      <replace>test_bow_features_4dim</replace>
-      <replace>_bow_encoder</replace>
-      <replace>bow_CNN_bow_WORD2VEC_oov_randomforest</replace>
-      <replace />
-      <replace>sentence_to_full_seg</replace>
       <replace>vectorizer</replace>
       <replace>verify_data</replace>
       <replace>name_test</replace>
@@ -63,6 +43,26 @@
       <replace>-</replace>
       <replace>word_embedding_model/nonstatic_w2v_padding_cnn</replace>
       <replace>nonstatic_w2v_padding_cnn</replace>
+      <replace>$USER_HOME$/PycharmProjects/corprocessor/coprocessor/Corpus/训练和测试集综合/训练集和测试集/20160526/train_all.csv</replace>
+      <replace>$USER_HOME$/PycharmProjects/corprocessor/coprocessor/Corpus/训练和测试集综合/训练集和测试集/20160526/ood_labeled.csv</replace>
+      <replace>refresh_all_model</replace>
+      <replace>self.__word_embedding_length__</replace>
+      <replace>model_file_path</replace>
+      <replace>ISCSLP2016</replace>
+      <replace>Max-TDNN</replace>
+      <replace>句子padding长度(padding_length)为7,不够首尾补0.</replace>
+      <replace>L</replace>
+      <replace>input.shape</replace>
+      <replace>self.k</replace>
+      <replace>表态#不满</replace>
+      <replace>self</replace>
+      <replace>导购#结束</replace>
+      <replace>$USER_HOME$/PycharmProjects/corprocessor/coprocessor/Corpus/ood_dataset/stable_vesion/20160627/train_all_1821.csv</replace>
+      <replace>$USER_HOME$/PycharmProjects/corprocessor/coprocessor/Corpus/ood_dataset/stable_vesion/20160627/test_64.csv</replace>
+      <replace>word_embedding_dim</replace>
+      <replace>\t</replace>
+      <replace>表态#犹豫</replace>
+      <replace>print</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/PycharmProjects/PyAIML/Ch2R_aiml</dir>

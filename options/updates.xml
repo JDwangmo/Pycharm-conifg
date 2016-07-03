@@ -11,8 +11,9 @@
       <item value="pycharm5" />
       <item value="pycharm2016.1" />
       <item value="pycharm2016.1EAP" />
+      <item value="pycharm2016.2EAP" />
     </knownUpdateChannels>
-    <option name="LAST_TIME_CHECKED" value="1464842829136" />
+    <option name="LAST_TIME_CHECKED" value="1466733798774" />
     <option name="LAST_BUILD_CHECKED" value="PC-145.1504" />
   </component>
 </application>

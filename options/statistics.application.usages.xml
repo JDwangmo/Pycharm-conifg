@@ -1,33 +1,34 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="Git">
-      <project id="corprocessor" values="data.local.branches.count.1,config.warn.about.detached.enabled,data.remote.branches.count.1,data.local.branches.count.1,data.local.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.1,config.force.push.enabled,config.push.autoupdate.disabled,config.ssh.enabled,data.remote.branches.count.1,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,data.local.branches.count.1,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.1,data.remote.branches.count.1,data.local.branches.count.1,config.repo.sync.SYNC,data.remote.branches.count.1,data.remotes.in.project.1,config.push.update.all.roots.enabled" collectionTime="1466125561418" />
+      <project id="corprocessor" values="config.save.policy.STASH,config.repo.sync.SYNC,data.remote.branches.count.1,data.local.branches.count.1,config.push.autoupdate.disabled,data.local.branches.count.1,data.local.branches.count.1,data.remote.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.1,data.remotes.in.project.1,data.remote.branches.count.1,data.remote.branches.count.1,data.remotes.in.project.1,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,data.remote.branches.count.1,data.remote.branches.count.1,data.remotes.in.project.1,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.1,data.local.branches.count.1,config.force.push.enabled,config.warn.about.detached.enabled,config.push.update.all.roots.enabled,data.local.branches.count.1,config.ssh.enabled,data.local.branches.count.1" collectionTime="1467464247022" />
     </group>
     <group name="vcs">
-      <project id="corprocessor" values="Git" collectionTime="1466125561388" />
+      <project id="corprocessor" values="Git" collectionTime="1467464247007" />
     </group>
     <group name="run-configuration-type-temp">
-      <project id="corprocessor" values="PythonConfigurationType" collectionTime="1466125561389" />
+      <project id="corprocessor" values="PythonConfigurationType" collectionTime="1467464247008" />
     </group>
     <group name="py-interpreter">
-      <project id="corprocessor" values="Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6" collectionTime="1466125561408" />
+      <project id="corprocessor" values="Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6,Python 2.7.6" collectionTime="1467464247017" />
     </group>
     <group name="file-type">
-      <project id="corprocessor" values="Git file,Native,C++,IPNB,UNKNOWN,XML,PLAIN_TEXT,Markdown,JSON,Bash,YAML_EX,Images,Perl,Python,C#,CSS,JavaScript" collectionTime="1466125561397" />
+      <project id="corprocessor" values="Bash,IPNB,JavaScript,Markdown,C++,C#,PLAIN_TEXT,Images,Python,YAML_EX,JSON,UNKNOWN,Perl,Git file,Native,CSS,XML" collectionTime="1467464247012" />
     </group>
     <group name="module type">
-      <project id="corprocessor" values="PYTHON_MODULE" collectionTime="1466125561389" />
+      <project id="corprocessor" values="PYTHON_MODULE" collectionTime="1467464247007" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
       <entry feature="AbstractNewProjectStep.Pure Python" count="9" />
-      <entry feature="CreateFile.CreateFileAction" count="26" />
+      <entry feature="CreateFile.CreateFileAction" count="36" />
       <entry feature="OpenInBrowser.Chrome" count="1" />
       <entry feature="OpenInBrowser.Opera" count="1" />
+      <entry feature="StripeButton[Run].hidden" count="1" />
       <entry feature="execute.BashConfigurationType.Run" count="40" />
-      <entry feature="execute.PythonConfigurationType.Debug" count="211" />
-      <entry feature="execute.PythonConfigurationType.Run" count="5676" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="295" />
+      <entry feature="execute.PythonConfigurationType.Run" count="8067" />
       <entry feature="execute.tests.Run" count="2" />
       <entry feature="ide.help.ideaInterface.editor" count="2" />
       <entry feature="ide.help.ideaInterface.run" count="1" />
@@ -36,17 +37,17 @@
       <entry feature="ide.settings.Code_Completion" count="2" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
       <entry feature="ide.settings.Console_Font" count="1" />
-      <entry feature="ide.settings.File_and_Code_Templates" count="30" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="32" />
       <entry feature="ide.settings.Font" count="4" />
       <entry feature="ide.settings.General" count="10" />
       <entry feature="ide.settings.GitHub" count="3" />
-      <entry feature="ide.settings.Live_Templates" count="21" />
-      <entry feature="ide.settings.Project_Dependencies" count="2" />
+      <entry feature="ide.settings.Live_Templates" count="32" />
+      <entry feature="ide.settings.Project_Dependencies" count="5" />
       <entry feature="ide.settings.Project_Interpreter" count="4" />
-      <entry feature="ide.settings.Python_Console" count="1" />
-      <entry feature="ide.settings.Version_Control" count="15" />
-      <entry feature="ideaapp.started" count="179" />
-      <entry feature="python.console.local" count="43" />
+      <entry feature="ide.settings.Python_Console" count="2" />
+      <entry feature="ide.settings.Version_Control" count="16" />
+      <entry feature="ideaapp.started" count="255" />
+      <entry feature="python.console.local" count="61" />
       <entry feature="terminal.linux" count="5" />
       <entry feature="tips.of.the.day.next" count="32" />
     </counts>
